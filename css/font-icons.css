@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?87739848');
+  src: url('../fonts/fontello.eot?87739848#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?87739848') format('woff'),
+       url('../fonts/fontello.ttf?87739848') format('truetype'),
+       url('../fonts/fontello.svg?87739848#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?87739848#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-2427:before { content: '\e800'; } /* '' */
+.icon-test-tube1:before { content: '\e801'; } /* '' */
+.icon-clinic3:before { content: '\e802'; } /* '' */
+.icon-flask1:before { content: '\e803'; } /* '' */
+.icon-heart258:before { content: '\e804'; } /* '' */
+.icon-homework:before { content: '\e805'; } /* '' */
+.icon-medical4:before { content: '\e806'; } /* '' */
+.icon-medical12-1:before { content: '\e807'; } /* '' */
+.icon-medical34:before { content: '\e808'; } /* '' */
+.icon-medical85:before { content: '\e809'; } /* '' */
+.icon-user-plus:before { content: '\e80a'; } /* '' */
+.icon-medical99:before { content: '\e80b'; } /* '' */
+.icon-medicine:before { content: '\e80c'; } /* '' */
+.icon-microscope4:before { content: '\e80d'; } /* '' */
+.icon-news29:before { content: '\e80e'; } /* '' */
+.icon-operator:before { content: '\e80f'; } /* '' */
+.icon-phonereceiver:before { content: '\e810'; } /* '' */
+.icon-pill:before { content: '\e811'; } /* '' */
+.icon-science3:before { content: '\e812'; } /* '' */
+.icon-speechbubble:before { content: '\e813'; } /* '' */
+.icon-test:before { content: '\e814'; } /* '' */
+.icon-testtube1:before { content: '\e815'; } /* '' */
+.icon-umbrella18:before { content: '\e816'; } /* '' */
+.icon-medical4-1:before { content: '\e817'; } /* '' */
+.icon-user:before { content: '\e818'; } /* '' */
+.icon-clock:before { content: '\e819'; } /* '' */
+.icon-user-md:before { content: '\e81a'; } /* '' */
+.icon-whatsapp:before { content: '\e81b'; } /* '' */
+.icon-lightbulb:before { content: '\e81c'; } /* '' */
